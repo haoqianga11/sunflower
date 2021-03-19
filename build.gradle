@@ -54,6 +54,29 @@ buildscript {
     }
 
     repositories {
+        // 添加阿里云 maven 地址
+        // central
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://repo1.maven.org/maven2/' }
+
+        // jcenter
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://jcenter.bintray.com/' }
+
+        // public
+        //maven { url 'https://maven.aliyun.com/repository/public' }
+
+        // google
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.google.com/' }
+        maven { url 'https://google.bintray.com/' }
+
+        // gradle-plugin
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://plugins.gradle.org/m2/' }
+
+        maven { url 'http://jitpack.io' }
+
         google()
         jcenter()
     }
@@ -72,6 +95,29 @@ plugins {
 
 allprojects {
     repositories {
+        // 添加阿里云 maven 地址
+        // central
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://repo1.maven.org/maven2/' }
+
+        // jcenter
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://jcenter.bintray.com/' }
+
+        // public
+        //maven { url 'https://maven.aliyun.com/repository/public' }
+
+        // google
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.google.com/' }
+        maven { url 'https://google.bintray.com/' }
+
+        // gradle-plugin
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://plugins.gradle.org/m2/' }
+
+        maven { url 'http://jitpack.io' }
+
         google()
         jcenter()
     }
